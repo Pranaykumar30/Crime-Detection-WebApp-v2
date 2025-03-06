@@ -22,3 +22,5 @@ A web application for detecting crime-related objects using YOLOv8 and MobileNet
   - Labeled images with YOLOv8 and remapped to custom classes.
   - Split into train (70%), val (15%), test (15%) sets.
   - Preprocessed images with augmentation pipeline.
+
+  - Day 2 completed with dataset fully labeled, split, and preprocessed.
