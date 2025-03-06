@@ -13,3 +13,7 @@ __pycache__/
 
 # Codespaces-specific
 *.code-workspace
+
+# YOLOv8 temporary files
+runs/
+yolov8n.pt
