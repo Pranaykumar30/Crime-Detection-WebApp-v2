@@ -14,3 +14,5 @@ A web application for detecting crime-related objects using YOLOv8 and MobileNet
   - Configured Codespaces with Python 3.9.
   - Set up virtual environment with core dependencies.
   - Created Flask app structure and minimal app.
+
+  - Day 1 completed with Git, Codespaces, venv, and Flask setup.
