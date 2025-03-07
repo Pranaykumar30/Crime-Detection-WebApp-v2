@@ -1,1 +1,1 @@
-MobileNet: {'accuracy': 0.5}
+MobileNet Detailed Metrics: {'accuracy': 0.5, 'precision': 0.5790816326530612, 'recall': 0.5, 'f1': 0.5035559678416821, 'per_class_accuracy': {'handguns': np.float64(0.5), 'knives': np.float64(0.75), 'sharp-edged-weapons': np.float64(0.4), 'masked-intruders': np.float64(0.5), 'violence': np.float64(0.3333333333333333), 'normal-behavior': np.float64(0.6)}}
