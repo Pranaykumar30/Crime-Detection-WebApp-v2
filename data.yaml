@@ -1,6 +1,6 @@
-train: /workspaces/crime-detection-webapp-v2/data/split/train/images
-val: /workspaces/crime-detection-webapp-v2/data/split/val/images
-test: /workspaces/crime-detection-webapp-v2/data/split/test/images
+train: /workspaces/Crime-Detection-WebApp-v2/data/split/train/images
+val: /workspaces/Crime-Detection-WebApp-v2/data/split/val/images
+test: /workspaces/Crime-Detection-WebApp-v2/data/split/test/images
 
 nc: 6
 names:
