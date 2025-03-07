@@ -1,0 +1,1 @@
+MobileNet: {'accuracy': 0.5}
