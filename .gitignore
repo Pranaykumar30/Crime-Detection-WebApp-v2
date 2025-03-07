@@ -17,3 +17,6 @@ __pycache__/
 # YOLOv8 temporary files
 runs/
 yolov8n.pt
+
+# MobileNet training outputs
+models/mobilenet/*.h5.bak
