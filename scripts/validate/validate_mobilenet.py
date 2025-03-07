@@ -20,6 +20,7 @@ def validate_mobilenet(model_path, data_dir):
         images.append(img)
         true_labels.append(class_id)
     images = np.array(images)
+    true_labels = np.array(true_labels)  # Convert to NumPy array here
     true_labels_one_hot = tf.keras.utils.to_categorical(true_labels, num_classes=6)
     predictions = model.predict(images, verbose=0)
     pred_labels = np.argmax(predictions, axis=1)
