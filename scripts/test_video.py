@@ -18,14 +18,14 @@ def process_video(yolo_model_path, mobilenet_model_path, video_path, output_path
     class_names = ['handguns', 'knives', 'sharp-edged-weapons', 'masked-intruders', 'violence', 'normal-behavior']
     frame_count = 0
     log_file = open('data/videos/output/prediction_log.txt', 'w')
-    mobilenet_buffer = deque(maxlen=5)  # 5-frame buffer for majority vote
+    mobilenet_buffer = deque(maxlen=10)  # Increased to 10-frame buffer
     while cap.isOpened():
         ret, frame = cap.read()
         if not ret:
             break
         frame_count += 1
-        # YOLOv8 prediction with adjusted confidence threshold
-        yolo_results = yolo_model.predict(frame, conf=0.4, verbose=False)  # Lowered to 0.4
+        # YOLOv8 prediction with lower threshold and proper resizing
+        yolo_results = yolo_model.predict(frame, conf=0.25, imgsz=640, verbose=False)  # conf=0.25, imgsz=640
         yolo_detections = []
         for result in yolo_results:
             for box in result.boxes:
@@ -43,7 +43,7 @@ def process_video(yolo_model_path, mobilenet_model_path, video_path, output_path
         mobilenet_cls = np.argmax(mobilenet_pred)
         mobilenet_conf = float(mobilenet_pred[0][mobilenet_cls])
         mobilenet_buffer.append((mobilenet_cls, mobilenet_conf))
-        if len(mobilenet_buffer) == 5:
+        if len(mobilenet_buffer) == 10:
             class_counts = np.bincount([cls for cls, _ in mobilenet_buffer])
             majority_cls = np.argmax(class_counts)
             majority_conf = np.mean([conf for cls, conf in mobilenet_buffer if cls == majority_cls])
@@ -52,8 +52,7 @@ def process_video(yolo_model_path, mobilenet_model_path, video_path, output_path
         mobilenet_label = f'MobileNet: {class_names[majority_cls]} {majority_conf:.2f}'
         cv2.putText(frame, mobilenet_label, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
         # Log predictions
-        log_file.write(f'Frame {frame_count}: YOLOv8: {yolo_detections}, MobileNet: {mobilenet_label}
-')
+        log_file.write(f'Frame {frame_count}: YOLOv8: {yolo_detections}, MobileNet: {mobilenet_label}')
         out.write(frame)
     cap.release()
     out.release()
