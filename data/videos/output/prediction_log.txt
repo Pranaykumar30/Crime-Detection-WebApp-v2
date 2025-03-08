@@ -1,0 +1,177 @@
+Frame 1: YOLOv8: ['knives 0.24'], MobileNet: MobileNet: sharp-edged-weapons 0.56
+Frame 2: YOLOv8: ['sharp-edged-weapons 0.25'], MobileNet: MobileNet: sharp-edged-weapons 0.49
+Frame 3: YOLOv8: ['sharp-edged-weapons 0.28'], MobileNet: MobileNet: sharp-edged-weapons 0.44
+Frame 4: YOLOv8: [], MobileNet: MobileNet: knives 0.54
+Frame 5: YOLOv8: [], MobileNet: MobileNet: knives 0.54
+Frame 6: YOLOv8: [], MobileNet: MobileNet: knives 0.45
+Frame 7: YOLOv8: [], MobileNet: MobileNet: knives 0.42
+Frame 8: YOLOv8: [], MobileNet: MobileNet: knives 0.40
+Frame 9: YOLOv8: [], MobileNet: MobileNet: knives 0.39
+Frame 10: YOLOv8: [], MobileNet: MobileNet: knives 0.45
+Frame 11: YOLOv8: [], MobileNet: MobileNet: knives 0.44
+Frame 12: YOLOv8: [], MobileNet: MobileNet: knives 0.43
+Frame 13: YOLOv8: [], MobileNet: MobileNet: knives 0.43
+Frame 14: YOLOv8: [], MobileNet: MobileNet: knives 0.41
+Frame 15: YOLOv8: [], MobileNet: MobileNet: knives 0.40
+Frame 16: YOLOv8: [], MobileNet: MobileNet: knives 0.39
+Frame 17: YOLOv8: [], MobileNet: MobileNet: knives 0.39
+Frame 18: YOLOv8: [], MobileNet: MobileNet: knives 0.39
+Frame 19: YOLOv8: [], MobileNet: MobileNet: knives 0.38
+Frame 20: YOLOv8: [], MobileNet: MobileNet: knives 0.38
+Frame 21: YOLOv8: [], MobileNet: MobileNet: knives 0.39
+Frame 22: YOLOv8: [], MobileNet: MobileNet: knives 0.39
+Frame 23: YOLOv8: [], MobileNet: MobileNet: knives 0.40
+Frame 24: YOLOv8: [], MobileNet: MobileNet: knives 0.40
+Frame 25: YOLOv8: [], MobileNet: MobileNet: knives 0.42
+Frame 26: YOLOv8: ['sharp-edged-weapons 0.23'], MobileNet: MobileNet: knives 0.46
+Frame 27: YOLOv8: [], MobileNet: MobileNet: knives 0.49
+Frame 28: YOLOv8: [], MobileNet: MobileNet: knives 0.51
+Frame 29: YOLOv8: [], MobileNet: MobileNet: knives 0.54
+Frame 30: YOLOv8: [], MobileNet: MobileNet: knives 0.55
+Frame 31: YOLOv8: [], MobileNet: MobileNet: knives 0.56
+Frame 32: YOLOv8: [], MobileNet: MobileNet: knives 0.56
+Frame 33: YOLOv8: [], MobileNet: MobileNet: knives 0.56
+Frame 34: YOLOv8: [], MobileNet: MobileNet: knives 0.55
+Frame 35: YOLOv8: [], MobileNet: MobileNet: knives 0.55
+Frame 36: YOLOv8: [], MobileNet: MobileNet: knives 0.53
+Frame 37: YOLOv8: [], MobileNet: MobileNet: knives 0.52
+Frame 38: YOLOv8: [], MobileNet: MobileNet: knives 0.51
+Frame 39: YOLOv8: [], MobileNet: MobileNet: knives 0.51
+Frame 40: YOLOv8: [], MobileNet: MobileNet: knives 0.52
+Frame 41: YOLOv8: [], MobileNet: MobileNet: knives 0.53
+Frame 42: YOLOv8: [], MobileNet: MobileNet: knives 0.54
+Frame 43: YOLOv8: [], MobileNet: MobileNet: knives 0.52
+Frame 44: YOLOv8: [], MobileNet: MobileNet: knives 0.52
+Frame 45: YOLOv8: [], MobileNet: MobileNet: knives 0.52
+Frame 46: YOLOv8: [], MobileNet: MobileNet: knives 0.51
+Frame 47: YOLOv8: [], MobileNet: MobileNet: knives 0.52
+Frame 48: YOLOv8: [], MobileNet: MobileNet: knives 0.51
+Frame 49: YOLOv8: [], MobileNet: MobileNet: knives 0.49
+Frame 50: YOLOv8: [], MobileNet: MobileNet: sharp-edged-weapons 0.50
+Frame 51: YOLOv8: [], MobileNet: MobileNet: sharp-edged-weapons 0.50
+Frame 52: YOLOv8: [], MobileNet: MobileNet: sharp-edged-weapons 0.50
+Frame 53: YOLOv8: [], MobileNet: MobileNet: sharp-edged-weapons 0.50
+Frame 54: YOLOv8: [], MobileNet: MobileNet: sharp-edged-weapons 0.50
+Frame 55: YOLOv8: [], MobileNet: MobileNet: knives 0.49
+Frame 56: YOLOv8: [], MobileNet: MobileNet: knives 0.47
+Frame 57: YOLOv8: [], MobileNet: MobileNet: knives 0.47
+Frame 58: YOLOv8: [], MobileNet: MobileNet: knives 0.46
+Frame 59: YOLOv8: [], MobileNet: MobileNet: knives 0.45
+Frame 60: YOLOv8: [], MobileNet: MobileNet: knives 0.44
+Frame 61: YOLOv8: [], MobileNet: MobileNet: knives 0.43
+Frame 62: YOLOv8: [], MobileNet: MobileNet: knives 0.43
+Frame 63: YOLOv8: [], MobileNet: MobileNet: knives 0.41
+Frame 64: YOLOv8: [], MobileNet: MobileNet: knives 0.39
+Frame 65: YOLOv8: [], MobileNet: MobileNet: knives 0.38
+Frame 66: YOLOv8: [], MobileNet: MobileNet: knives 0.38
+Frame 67: YOLOv8: [], MobileNet: MobileNet: handguns 0.45
+Frame 68: YOLOv8: [], MobileNet: MobileNet: handguns 0.45
+Frame 69: YOLOv8: [], MobileNet: MobileNet: handguns 0.46
+Frame 70: YOLOv8: [], MobileNet: MobileNet: handguns 0.46
+Frame 71: YOLOv8: [], MobileNet: MobileNet: handguns 0.46
+Frame 72: YOLOv8: [], MobileNet: MobileNet: handguns 0.46
+Frame 73: YOLOv8: [], MobileNet: MobileNet: handguns 0.44
+Frame 74: YOLOv8: [], MobileNet: MobileNet: handguns 0.44
+Frame 75: YOLOv8: ['sharp-edged-weapons 0.28'], MobileNet: MobileNet: handguns 0.43
+Frame 76: YOLOv8: [], MobileNet: MobileNet: handguns 0.43
+Frame 77: YOLOv8: ['knives 0.20'], MobileNet: MobileNet: handguns 0.40
+Frame 78: YOLOv8: [], MobileNet: MobileNet: knives 0.52
+Frame 79: YOLOv8: ['sharp-edged-weapons 0.32'], MobileNet: MobileNet: knives 0.55
+Frame 80: YOLOv8: ['sharp-edged-weapons 0.28'], MobileNet: MobileNet: knives 0.56
+Frame 81: YOLOv8: ['sharp-edged-weapons 0.23'], MobileNet: MobileNet: knives 0.58
+Frame 82: YOLOv8: ['sharp-edged-weapons 0.37'], MobileNet: MobileNet: knives 0.59
+Frame 83: YOLOv8: ['sharp-edged-weapons 0.41', 'sharp-edged-weapons 0.21'], MobileNet: MobileNet: knives 0.61
+Frame 84: YOLOv8: ['sharp-edged-weapons 0.31'], MobileNet: MobileNet: knives 0.65
+Frame 85: YOLOv8: ['sharp-edged-weapons 0.29', 'sharp-edged-weapons 0.23'], MobileNet: MobileNet: knives 0.67
+Frame 86: YOLOv8: ['sharp-edged-weapons 0.23'], MobileNet: MobileNet: knives 0.71
+Frame 87: YOLOv8: [], MobileNet: MobileNet: knives 0.69
+Frame 88: YOLOv8: [], MobileNet: MobileNet: knives 0.70
+Frame 89: YOLOv8: [], MobileNet: MobileNet: knives 0.68
+Frame 90: YOLOv8: [], MobileNet: MobileNet: knives 0.65
+Frame 91: YOLOv8: [], MobileNet: MobileNet: knives 0.63
+Frame 92: YOLOv8: [], MobileNet: MobileNet: knives 0.61
+Frame 93: YOLOv8: [], MobileNet: MobileNet: knives 0.58
+Frame 94: YOLOv8: [], MobileNet: MobileNet: knives 0.55
+Frame 95: YOLOv8: [], MobileNet: MobileNet: knives 0.52
+Frame 96: YOLOv8: [], MobileNet: MobileNet: knives 0.49
+Frame 97: YOLOv8: [], MobileNet: MobileNet: knives 0.46
+Frame 98: YOLOv8: [], MobileNet: MobileNet: knives 0.45
+Frame 99: YOLOv8: [], MobileNet: MobileNet: knives 0.45
+Frame 100: YOLOv8: [], MobileNet: MobileNet: knives 0.44
+Frame 101: YOLOv8: [], MobileNet: MobileNet: knives 0.42
+Frame 102: YOLOv8: [], MobileNet: MobileNet: knives 0.41
+Frame 103: YOLOv8: [], MobileNet: MobileNet: knives 0.39
+Frame 104: YOLOv8: [], MobileNet: MobileNet: knives 0.37
+Frame 105: YOLOv8: [], MobileNet: MobileNet: knives 0.36
+Frame 106: YOLOv8: [], MobileNet: MobileNet: knives 0.34
+Frame 107: YOLOv8: [], MobileNet: MobileNet: knives 0.34
+Frame 108: YOLOv8: [], MobileNet: MobileNet: knives 0.33
+Frame 109: YOLOv8: [], MobileNet: MobileNet: knives 0.33
+Frame 110: YOLOv8: [], MobileNet: MobileNet: knives 0.33
+Frame 111: YOLOv8: [], MobileNet: MobileNet: knives 0.35
+Frame 112: YOLOv8: [], MobileNet: MobileNet: knives 0.35
+Frame 113: YOLOv8: [], MobileNet: MobileNet: knives 0.35
+Frame 114: YOLOv8: [], MobileNet: MobileNet: knives 0.36
+Frame 115: YOLOv8: [], MobileNet: MobileNet: knives 0.35
+Frame 116: YOLOv8: [], MobileNet: MobileNet: knives 0.36
+Frame 117: YOLOv8: [], MobileNet: MobileNet: knives 0.35
+Frame 118: YOLOv8: [], MobileNet: MobileNet: knives 0.35
+Frame 119: YOLOv8: [], MobileNet: MobileNet: knives 0.35
+Frame 120: YOLOv8: [], MobileNet: MobileNet: knives 0.34
+Frame 121: YOLOv8: [], MobileNet: MobileNet: knives 0.33
+Frame 122: YOLOv8: [], MobileNet: MobileNet: knives 0.33
+Frame 123: YOLOv8: [], MobileNet: MobileNet: knives 0.32
+Frame 124: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.39
+Frame 125: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.41
+Frame 126: YOLOv8: ['sharp-edged-weapons 0.20'], MobileNet: MobileNet: masked-intruders 0.41
+Frame 127: YOLOv8: ['sharp-edged-weapons 0.21'], MobileNet: MobileNet: masked-intruders 0.41
+Frame 128: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.42
+Frame 129: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.41
+Frame 130: YOLOv8: ['sharp-edged-weapons 0.24'], MobileNet: MobileNet: masked-intruders 0.42
+Frame 131: YOLOv8: ['sharp-edged-weapons 0.23'], MobileNet: MobileNet: masked-intruders 0.42
+Frame 132: YOLOv8: ['sharp-edged-weapons 0.26'], MobileNet: MobileNet: masked-intruders 0.42
+Frame 133: YOLOv8: ['sharp-edged-weapons 0.21'], MobileNet: MobileNet: knives 0.51
+Frame 134: YOLOv8: ['sharp-edged-weapons 0.23'], MobileNet: MobileNet: knives 0.52
+Frame 135: YOLOv8: ['sharp-edged-weapons 0.24'], MobileNet: MobileNet: knives 0.52
+Frame 136: YOLOv8: ['sharp-edged-weapons 0.22'], MobileNet: MobileNet: knives 0.51
+Frame 137: YOLOv8: ['sharp-edged-weapons 0.22'], MobileNet: MobileNet: knives 0.48
+Frame 138: YOLOv8: ['sharp-edged-weapons 0.21'], MobileNet: MobileNet: knives 0.48
+Frame 139: YOLOv8: ['sharp-edged-weapons 0.22'], MobileNet: MobileNet: knives 0.48
+Frame 140: YOLOv8: ['sharp-edged-weapons 0.23'], MobileNet: MobileNet: knives 0.48
+Frame 141: YOLOv8: [], MobileNet: MobileNet: knives 0.48
+Frame 142: YOLOv8: [], MobileNet: MobileNet: knives 0.49
+Frame 143: YOLOv8: [], MobileNet: MobileNet: knives 0.49
+Frame 144: YOLOv8: [], MobileNet: MobileNet: knives 0.48
+Frame 145: YOLOv8: [], MobileNet: MobileNet: knives 0.48
+Frame 146: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.56
+Frame 147: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.57
+Frame 148: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.57
+Frame 149: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.57
+Frame 150: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.56
+Frame 151: YOLOv8: ['sharp-edged-weapons 0.20'], MobileNet: MobileNet: masked-intruders 0.57
+Frame 152: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.55
+Frame 153: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.53
+Frame 154: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.52
+Frame 155: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.50
+Frame 156: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.49
+Frame 157: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.47
+Frame 158: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.45
+Frame 159: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.43
+Frame 160: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.41
+Frame 161: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.40
+Frame 162: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.40
+Frame 163: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.40
+Frame 164: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.39
+Frame 165: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.38
+Frame 166: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.39
+Frame 167: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.39
+Frame 168: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.39
+Frame 169: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.40
+Frame 170: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.40
+Frame 171: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.42
+Frame 172: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.44
+Frame 173: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.45
+Frame 174: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.46
+Frame 175: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.46
+Frame 176: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.46
+Frame 177: YOLOv8: [], MobileNet: MobileNet: masked-intruders 0.46
