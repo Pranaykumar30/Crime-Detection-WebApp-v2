@@ -1,7 +1,8 @@
 import tensorflow as tf
 import numpy as np
 import os
-from sklearn.metrics import precision_score, recall_score, f1_score
+from sklearn.metrics import precision_score, recall_score, f1_score, confusion_matrix
+import time
 
 def validate_mobilenet(model_path, data_dir):
     model = tf.keras.models.load_model(model_path)
@@ -20,19 +21,22 @@ def validate_mobilenet(model_path, data_dir):
         images.append(img)
         true_labels.append(class_id)
     images = np.array(images)
-    true_labels = np.array(true_labels)  # Convert to NumPy array here
+    true_labels = np.array(true_labels)  # Fixed: Convert to NumPy array
     true_labels_one_hot = tf.keras.utils.to_categorical(true_labels, num_classes=6)
+    start_time = time.time()
     predictions = model.predict(images, verbose=0)
+    inference_time = (time.time() - start_time) / len(images)  # Avg time per image
     pred_labels = np.argmax(predictions, axis=1)
     loss, acc = model.evaluate(images, true_labels_one_hot, verbose=0)
     precision = precision_score(true_labels, pred_labels, average='weighted', zero_division=0)
     recall = recall_score(true_labels, pred_labels, average='weighted', zero_division=0)
     f1 = f1_score(true_labels, pred_labels, average='weighted', zero_division=0)
+    conf_matrix = confusion_matrix(true_labels, pred_labels).tolist()  # Convert to list for JSON
     per_class_acc = {}
     for i, class_name in enumerate(class_names):
         class_mask = true_labels == i
         if class_mask.sum() > 0:
-            per_class_acc[class_name] = np.mean(pred_labels[class_mask] == true_labels[class_mask])
+            per_class_acc[class_name] = float(np.mean(pred_labels[class_mask] == true_labels[class_mask]))
         else:
             per_class_acc[class_name] = 0.0
     results = {
@@ -40,7 +44,9 @@ def validate_mobilenet(model_path, data_dir):
         'precision': float(precision),
         'recall': float(recall),
         'f1': float(f1),
-        'per_class_accuracy': per_class_acc
+        'confusion_matrix': conf_matrix,
+        'per_class_accuracy': per_class_acc,
+        'inference_time_per_image': inference_time
     }
     print(f'MobileNet Detailed Validation Metrics: {results}')
     with open('models/mobilenet_validation_results.txt', 'w') as f:
