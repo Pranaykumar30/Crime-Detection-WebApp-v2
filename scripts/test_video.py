@@ -24,8 +24,8 @@ def process_video(yolo_model_path, mobilenet_model_path, video_path, output_path
         if not ret:
             break
         frame_count += 1
-        # YOLOv8 prediction with higher confidence threshold
-        yolo_results = yolo_model.predict(frame, conf=0.7, verbose=False)  # Increased to 0.7
+        # YOLOv8 prediction with adjusted confidence threshold
+        yolo_results = yolo_model.predict(frame, conf=0.4, verbose=False)  # Lowered to 0.4
         yolo_detections = []
         for result in yolo_results:
             for box in result.boxes:
@@ -48,7 +48,7 @@ def process_video(yolo_model_path, mobilenet_model_path, video_path, output_path
             majority_cls = np.argmax(class_counts)
             majority_conf = np.mean([conf for cls, conf in mobilenet_buffer if cls == majority_cls])
         else:
-            majority_cls, majority_conf = mobilenet_cls, mobilenet_conf  # Use current if buffer not full
+            majority_cls, majority_conf = mobilenet_cls, mobilenet_conf
         mobilenet_label = f'MobileNet: {class_names[majority_cls]} {majority_conf:.2f}'
         cv2.putText(frame, mobilenet_label, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 0), 2)
         # Log predictions
