@@ -20,24 +20,23 @@ def validate_yolo(model_path, data_dir):
         with open(lbl_path, 'r') as f:
             gt_classes = [int(line.split()[0]) for line in f if line.strip()]
         pred_classes = [int(box.cls) for box in result.boxes] if result.boxes else []
-        # Handle cases: multiple GT/pred boxes, assume first class if present
-        true_label = gt_classes[0] if gt_classes else 5  # Default to 'normal-behavior' if empty
-        pred_label = pred_classes[0] if pred_classes else 5  # Default to 'normal-behavior' if no detection
+        true_label = gt_classes[0] if gt_classes else 5  # Default to 'normal-behavior'
+        pred_label = pred_classes[0] if pred_classes else 5  # Default to 'normal-behavior'
         true_labels.append(true_label)
         pred_labels.append(pred_label)
     true_labels = np.array(true_labels)
     pred_labels = np.array(pred_labels)
     conf_matrix = np.histogram2d(true_labels, pred_labels, bins=(6, 6), range=([0, 6], [0, 6]))[0].tolist()
-    metrics = model.val(data='data.yaml', split='test')  # Still use val() for standard metrics
+    metrics = model.val(data='data.yaml', split='test')
     results_dict = {
-        'mAP50': metrics.box.map50,
-        'mAP50-95': metrics.box.map,
-        'precision': metrics.box.p,
-        'recall': metrics.box.r,
-        'f1': metrics.box.f1.mean() if metrics.box.f1 is not None else 0.0,
+        'mAP50': float(metrics.box.map50),
+        'mAP50-95': float(metrics.box.map),
+        'precision': float(metrics.box.p.mean()) if metrics.box.p is not None else 0.0,
+        'recall': float(metrics.box.r.mean()) if metrics.box.r is not None else 0.0,
+        'f1': float(metrics.box.f1.mean()) if metrics.box.f1 is not None else 0.0,
         'confusion_matrix': conf_matrix,
-        'class_ap50': {metrics.names[i]: ap for i, ap in enumerate(metrics.box.ap50)},
-        'inference_time_per_image': inference_time
+        'class_ap50': {metrics.names[i]: float(ap) for i, ap in enumerate(metrics.box.ap50)},
+        'inference_time_per_image': float(inference_time)
     }
     print(f'YOLOv8 Detailed Validation Metrics: {json.dumps(results_dict, indent=2)}')
     with open('models/yolo_validation_results.txt', 'w') as f:
