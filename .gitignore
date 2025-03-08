@@ -20,3 +20,6 @@ yolov8n.pt
 
 # MobileNet training outputs
 models/mobilenet/*.h5.bak
+
+# Video files
+data/videos/*.mp4
