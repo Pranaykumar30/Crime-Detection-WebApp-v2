@@ -34,7 +34,7 @@ def train_mobilenet():
     for layer in base_model.layers:
         layer.trainable = False
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-    model.fit(train_images, train_labels, epochs=10, batch_size=8, validation_split=0.2)
+    model.fit(train_images, train_labels, epochs=100, batch_size=8, validation_split=0.2)
     os.makedirs('models/mobilenet', exist_ok=True)
     model.save('models/mobilenet/mobilenet_custom.h5')
 
