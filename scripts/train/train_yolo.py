@@ -5,7 +5,7 @@ def train_yolo():
     model = YOLO('yolov8n.pt')
     results = model.train(
         data='/workspaces/Crime-Detection-WebApp-v2/data.yaml',
-        epochs=50,
+        epochs=100,
         imgsz=640,
         batch=8,
         name='yolov8_custom',
