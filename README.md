@@ -24,3 +24,11 @@ A web application for detecting crime-related objects using YOLOv8 and MobileNet
   - Preprocessed images with augmentation pipeline.
 
   - Day 2 completed with dataset fully labeled, split, and preprocessed.
+
+## Day 3: Test and Analyze Models on Video
+- **Substep 3.1**: Fixed  to process  with YOLOv8 and MobileNet.
+- **Substep 3.2**: Adjusted YOLOv8 (, ) to detect  reliably, producing  and .
+- **Substep 4.1**: Created  to quantify model performance (metrics in ).
+- **Substep 4.2**: Visualized predictions with , generating .
+- **Outputs**: Annotated video, logs, and plot in .
+
