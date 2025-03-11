@@ -1,1 +1,1 @@
-YOLOv8 - TP: 19, FP: 1, FN: 718, Precision: 0.95, Recall: 0.03MobileNet - TP: 607, FP: 130, Accuracy: 0.82
+YOLOv8 - TP: 662, FP: 13, FN: 75, Precision: 0.98, Recall: 0.90MobileNet - TP: 711, FP: 26, Accuracy: 0.96

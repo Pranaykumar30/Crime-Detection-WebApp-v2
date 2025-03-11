@@ -81,6 +81,6 @@ if __name__ == '__main__':
     process_video(
         '/workspaces/Crime-Detection-WebApp-v2/models/yolo/yolov8_custom/weights/best.pt',
         'models/mobilenet/mobilenet_custom.h5',
-        'data/videos/sample_2.mp4',
+        'data/videos/sample_video.mp4',
         'data/videos/output/annotated_video.mp4'
     )
